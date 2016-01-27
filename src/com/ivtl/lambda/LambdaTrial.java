@@ -5,7 +5,14 @@ public class LambdaTrial {
 	      LambdaTrial tester = new LambdaTrial();
 			
 	      //with type declaration
-	      MathOperation addition = (int a, int b) -> a + b;
+	      MathOperation addition = (int a, int b) -> {
+	    	  for(int i=0;i<100;i++){
+	    		  if(i%5 == 0){
+	    			  a = a+5;
+	    		  }
+	    	  }
+	    	  return a + b;
+	    			  };
 			
 	      //with out type declaration
 	      MathOperation subtraction = (a, b) -> a - b;

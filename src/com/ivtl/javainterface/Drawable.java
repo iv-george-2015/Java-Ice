@@ -1,7 +1,9 @@
 package com.ivtl.javainterface;
 
-public interface Drawable
+import java.util.List;
+
+public  interface Drawable
 {
- int returnCordinates();
+  List<String> getCoordinates();
 }
 

@@ -7,8 +7,8 @@ public class CharEncoder {
 		System.out.println("～".equals("～")) ;
 //		byte[] b =str.getBytes(); 
 //		System.out.println(str);
-//		char c = 0xFF5E; 
-//		System.out.println(c);
+		char c = 0xFF5E; 
+		System.out.println(c);
 		
 	}
 
